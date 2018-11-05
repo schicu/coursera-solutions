@@ -4,6 +4,7 @@
 
 body {
     padding: 10px;
+    font-family: Verdana;
 }
 h1 {
     text-align: center;
@@ -12,7 +13,7 @@ h1 {
     padding: 10px;
 }
 .border {
-    border: 3px solid black;
+    border: 1px solid black;
     padding: 20px;
     position: relative;
     background-color: #999999;
@@ -23,8 +24,8 @@ h2 {
     right: 0;
     top: 0;
     margin: 0;
-    border-left: 3px solid black;
-    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
     padding: 4px 30px;
     
 }
@@ -40,12 +41,18 @@ h2.yellow {
     background-color: #E4D09B;
 }
 
-p {
-    margin-top: 30px;
-}
 
 /* desktop */
 @media (min-width: 992px) {
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    p {
+        margin-top: 17px;
+    }
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, 
     .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, 
     .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
@@ -89,11 +96,18 @@ p {
         width: 100%;
     }
        
-    
-
 }
 /* tablet */
 @media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        margin-top: 40px;
+    }
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, 
     .col-md-5, .col-md-6, .col-md-7, .col-md-8, 
     .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
@@ -138,11 +152,19 @@ p {
     }
        
     
-
 }
 
 /* mobile */
 @media (max-width: 767px) {
+    h1 {
+        font-size: 44px;
+    }
+    h2 {
+        font-size: 33px;
+    }
+    p {
+        margin-top: 45px;
+    }
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, 
     .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, 
     .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
